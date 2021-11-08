@@ -1,8 +1,8 @@
 name: safe_device_check
 description: A flutter plugin for safe device check
-version: 0.0.1+1
+version: 0.0.1+2
 
-homepage: https://github.com/rajyadavnp/safe-device-check
+homepage: https://github.com/rajyadavnp/safe_device_check
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
