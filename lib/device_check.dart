@@ -3,6 +3,12 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 
+/// Check whether the device is safe,
+/// Available checks,
+/// * Root => [isRooted]
+/// * Developer Mode => [isDeveloperModeEnabled]
+/// * Emulator => [isEmulator]
+/// * App installed on external storage => [isInstalledOnExternalStorage]
 class DeviceCheck {
   static const MethodChannel _channel = const MethodChannel('device_check');
 
