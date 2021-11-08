@@ -1,0 +1,26 @@
+name: safe_device_check
+description: A flutter plugin for safe device check
+version: 0.0.1+1
+
+homepage: https://github.com/rajyadavnp/safe-device-check
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.glieselabs.device_check
+        pluginClass: DeviceCheckPlugin
+      ios:
+        pluginClass: DeviceCheckPlugin
