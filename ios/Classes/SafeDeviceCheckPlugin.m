@@ -10,6 +10,6 @@
 
 @implementation SafeDeviceCheckPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-    [SwiftDeviceCheckPlugin registerWithRegistrar:registrar];
+    [SafeDeviceCheckPlugin registerWithRegistrar:registrar];
 }
 @end
