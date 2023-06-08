@@ -20,6 +20,10 @@ public class DeviceCheck {
         #endif
     }
 
+    static func isRooted() -> Bool {
+        return isJailBroken() || isSimulator()
+    }
+
 
     private func method1() -> Bool {
         let fileManager = FileManager.default

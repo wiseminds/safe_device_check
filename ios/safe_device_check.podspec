@@ -3,7 +3,7 @@
 # Run `pod lib lint device_check.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'device_check'
+  s.name             = 'safe_device_check'
   s.version          = '0.0.1'
   s.summary          = 'A new Flutter project.'
   s.description      = <<-DESC
