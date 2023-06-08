@@ -1,4 +1,4 @@
-#import "DeviceCheckPlugin.h"
+#import "SwiftDeviceCheckPlugin.h"
 #if __has_include(<device_check/device_check-Swift.h>)
 #import <device_check/device_check-Swift.h>
 #else
@@ -8,7 +8,7 @@
 //#import "device_check-Swift.h"
 #endif
 
-@implementation DeviceCheckPlugin
+@implementation SwiftDeviceCheckPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     [DeviceCheckPlugin registerWithRegistrar:registrar];
 }
