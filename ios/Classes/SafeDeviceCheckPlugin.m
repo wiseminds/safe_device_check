@@ -1,4 +1,4 @@
-#import "DeviceCheckPlugin.h"
+#import "SafeDeviceCheckPlugin.h"
 #if __has_include(<device_check/device_check-Swift.h>)
 #import <device_check/device_check-Swift.h>
 #else
