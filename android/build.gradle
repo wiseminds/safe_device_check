@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
+    namespace 'com.glieselabs.device_check'
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
